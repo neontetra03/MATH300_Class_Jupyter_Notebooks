@@ -14,3 +14,5 @@ chapters:
   - file: notebooks/bracketing_methods_solutions.ipynb
   - file: notebooks/newton_method.ipynb
   - file: notebooks/scipy_root_finding.ipynb
+  - file: notebooks/scipy_interpolation.ipynb
+  - file: notebooks/scipy_interpolation_2d.ipynb
