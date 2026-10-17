@@ -1,19 +1,53 @@
+# format: jb-book
+# root: intro
+# chapters:
+#   - file: notebooks/starting_with_python
+#   - file: notebooks/starting_with_github
+#   - file: notebooks/intro_pythonI
+#   - file: notebooks/intro_pythonII
+#   - file: notebooks/intro_pythonIII
+#   - file: notebooks/intro_pythonIV_numpy
+#   - file: notebooks/intro_pythonV_matplotlib
+#   - file: notebooks/bigO_convergence_solved.ipynb
+#   - file: notebooks/limits_convergence.ipynb
+#   - file: notebooks/sympy_intro.ipynb
+#   - file: notebooks/bracketing_methods_solutions.ipynb
+#   - file: notebooks/newton_method.ipynb
+#   - file: notebooks/scipy_root_finding.ipynb
+#   - file: notebooks/scipy_interpolation.ipynb
+#   - file: notebooks/scipy_interpolation_2d.ipynb
+#   - file: notebooks/interpolation_extrapolation.ipynb
+
 format: jb-book
 root: intro
-chapters:
-  - file: notebooks/starting_with_python
-  - file: notebooks/starting_with_github
-  - file: notebooks/intro_pythonI
-  - file: notebooks/intro_pythonII
-  - file: notebooks/intro_pythonIII
-  - file: notebooks/intro_pythonIV_numpy
-  - file: notebooks/intro_pythonV_matplotlib
-  - file: notebooks/bigO_convergence_solved.ipynb
-  - file: notebooks/limits_convergence.ipynb
-  - file: notebooks/sympy_intro.ipynb
-  - file: notebooks/bracketing_methods_solutions.ipynb
-  - file: notebooks/newton_method.ipynb
-  - file: notebooks/scipy_root_finding.ipynb
-  - file: notebooks/scipy_interpolation.ipynb
-  - file: notebooks/scipy_interpolation_2d.ipynb
-  - file: notebooks/interpolation_extrapolation.ipynb
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: notebooks/starting_with_python
+      - file: notebooks/starting_with_github
+
+  - caption: Introduction to Python
+    chapters:
+      - file: notebooks/intro_pythonI
+      - file: notebooks/intro_pythonII
+      - file: notebooks/intro_pythonIII
+      - file: notebooks/intro_pythonIV_numpy
+      - file: notebooks/intro_pythonV_matplotlib
+
+  - caption: Convergence and Symbolic Math
+    chapters:
+      - file: notebooks/bigO_convergence_solved
+      - file: notebooks/limits_convergence
+      - file: notebooks/sympy_intro
+
+  - caption: Root Finding
+    chapters:
+      - file: notebooks/bracketing_methods_solutions
+      - file: notebooks/newton_method
+      - file: notebooks/scipy_root_finding
+
+  - caption: Interpolation
+    chapters:
+      - file: notebooks/scipy_interpolation
+      - file: notebooks/scipy_interpolation_2d
+      - file: notebooks/interpolation_extrapolation
