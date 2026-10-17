@@ -37,3 +37,9 @@ launch_buttons:
 # To add citations later: create book/references.bib, then uncomment below.
 # bibtex_bibfiles:
 #   - references.bib
+
+sphinx:
+  config:
+    html_static_path: ["_static"]
+    html_css_files: ["collapsible-captions.css"]
+    html_js_files: ["collapsible-captions.js"]
