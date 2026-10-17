@@ -16,3 +16,4 @@ chapters:
   - file: notebooks/scipy_root_finding.ipynb
   - file: notebooks/scipy_interpolation.ipynb
   - file: notebooks/scipy_interpolation_2d.ipynb
+  - file: notebooks/interpolation_extrapolation.ipynb
