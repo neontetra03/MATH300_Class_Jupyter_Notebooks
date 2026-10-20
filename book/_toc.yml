@@ -31,3 +31,7 @@ parts:
       - file: notebooks/scipy_interpolation
       - file: notebooks/scipy_interpolation_2d
       - file: notebooks/interpolation_extrapolation
+
+  - caption: Differentiation
+    chapters:
+      - file: notebooks/symbolic_finite_differences
